@@ -52,3 +52,7 @@ La función 'eliminar_producto()' permite al usuario eliminar un producto del ca
 Mostrar Catálogo
 
 La función 'mostrar_catalogo()' muestra al usuario diferentes opciones para mostrar el catálogo. Dependiendo de la opción seleccionada (1, 2, 3, 4, 5 o 6), se muestra una lista de productos filtrada por tipo o se muestra todo el catálogo completo.
+
+Cargar catálogo
+
+Guardar catálogo
