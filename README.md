@@ -134,5 +134,7 @@ Guardar catálogo
 
 Se solicit al usuarioque ingrese el nombre del archivo en el cual desea guaardar el catálogo utilizando la función 'input()'. Utilizamos un bloque 'try-except' para manejar posibleserrores al abrir y escribir en el archivo. Dentro del bloque try, abre el archivo utilizando la función 'open()' en modo de escritura "w" y lo asocia a una variable llamada archivo. Se recorre cada producto en el catálogo utilizando el bucle 'for producto in catalogo:'. Para cada producto, se verifica su tipo utilizando la función 'isinstance()' y se ejecuta el código correspondiente al tipo de producto.
 
-![]()
+![](https://github.com/agn-pe-23i/proyecto-los-mas-pythones/blob/main/Imagen8.png)
 imagen 8
+
+Como se observa en la imagen 8, dependiendo de la instancia de la clase a la que pertenece el producto se creara una inea de texto que contiene los valores del producto separados por comas y agrega un salto de línea al final. 
