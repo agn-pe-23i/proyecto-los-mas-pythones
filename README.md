@@ -139,3 +139,18 @@ Se solicita al usuario que ingrese el nombre del archivo en el cual desea guarda
 imagen 8
 
 Como se observa en la imagen 8, dependiendo de la instancia de la clase a la que pertenece el producto se creara una inea de texto que contiene los valores del producto separados por comas y agrega un salto de línea al final. Terminando el bucle se encuentra la funcion '.write()' que almacenara cada línea de producto dentro del archivo txt que se haya indicado.
+
+
+Archivo catalogo.txt
+
+El archivo que se añadio al repositorio del proyecto final llamado 'catalogo.txt' es un ejemplo de catalogo que puede ser ejecutado en nuestro programa. 
+
+Pelicula,El Padrino,Marlon Brando,Francis Ford Coppola,1972,9.99,2.99
+Serie,Game of Thrones,David Benioff,Kit Harington8,19.99,3.99,
+Documental,Planet Earth,David Attenborough,2006,Naturaleza,1.99,7.99
+Evento deportivo en vivo,Final de la Champions League,Fútbol,2022-05-28,21:00,Estadio de Wembley,59.99
+Pelicula,Avatar,Sam Worthingston,James Cameron,2009,5.59,1.99
+Evento deportivo en vivo, Juego Tenis de mesa,Tenis de mesa, 2022-06-05,20:30,Patio Unidad UAM Cuajimalpa, 2.99
+Serie,The Last of Us,Pedro Pascal,Greg Spence, 1, 22.89, 5.99
+
+Consta de dos peliculas, dos series, un documental y dos eventos deportivos.
