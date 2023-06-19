@@ -131,3 +131,8 @@ imagen 7
 En la imagen 7 podemos ver la implementación de un bucle 'for linea in lineas:', que recorre cada una de las lineas del archivo. Para cada linea se realiza lo siguiente: Se eliminan los espacios en blanco iniciales y finales de la línea utilizando 'strip()'. Y se divide la línea en diferentes parates utilizando 'split(",")', lo que crea una lista donde cada elemento es una parte separa por comas. Con una estructura de control selectiva multiple se verifica que el primer elemento de la lista 'datos' para determianr el tipo de elemento en el catálogo. Dependiendo del valor, los datos de se agrega a la lista de catalogo con la funcion '.append()'.
 
 Guardar catálogo
+
+Se solicit al usuarioque ingrese el nombre del archivo en el cual desea guaardar el catálogo utilizando la función 'input()'. Utilizamos un bloque 'try-except' para manejar posibleserrores al abrir y escribir en el archivo. Dentro del bloque try, abre el archivo utilizando la función 'open()' en modo de escritura "w" y lo asocia a una variable llamada archivo. Se recorre cada producto en el catálogo utilizando el bucle 'for producto in catalogo:'. Para cada producto, se verifica su tipo utilizando la función 'isinstance()' y se ejecuta el código correspondiente al tipo de producto.
+
+![]()
+imagen 8
