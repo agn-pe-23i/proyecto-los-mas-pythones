@@ -10,7 +10,61 @@ Diagrama de estructura
 
 Documentación del uso de modulos y del programa principal
 
+El programa es un sistema de gestión de catálogos de productos de sreaming. 
 
+Clases:
+
+Pelicula: Representa una película y tiene los siguientes atributos:
+
+titulo: Título de la película.
+actor_principal: Actor principal de la película.
+director: Director de la película.
+anio: Año de lanzamiento de la película.
+costo_renta: Costo de renta de la película.
+costo_venta: Costo de venta de la película.
+
+Serie: Representa una serie y tiene los siguientes atributos:
+
+titulo: Título de la serie.
+actor_principal: Actor principal de la serie.
+director: Director de la serie.
+temporadas: Número de temporadas de la serie.
+costo_renta: Costo de renta de la serie.
+costo_venta: Costo de venta de la serie.
+
+Documental: Representa un documental y tiene los siguientes atributos:
+
+titulo: Título del documental.
+director: Director del documental.
+tema: Tema del documental.
+anio: Año de lanzamiento del documental.
+costo_renta: Costo de renta del documental.
+costo_venta: Costo de venta del documental.
+
+EventoDeportivo: Representa un evento deportivo y tiene los siguientes atributos:
+
+titulo: Título del evento deportivo.
+deporte: Deporte del evento.
+fecha: Fecha del evento.
+hora: Hora del evento.
+lugar: Lugar del evento.
+costo_venta: Costo de venta del evento deportivo.
+
+Funciones:
+
+menu_principal(): Muestra el menú principal del programa y permite al usuario seleccionar diferentes opciones como agregar producto, buscar producto, eliminar producto, mostrar catálogo, cargar catálogo desde archivo, guardar catálogo en archivo y salir.
+
+guardar_catalogo(): Guarda el catálogo actual en un archivo. El usuario debe ingresar el nombre del archivo.
+
+agregar_producto(): Permite al usuario agregar un producto al catálogo. El usuario puede seleccionar el tipo de producto (película, serie, documental o evento deportivo) y luego ingresar la información correspondiente.
+
+buscar_producto(): Permite al usuario buscar productos en el catálogo utilizando palabras clave. Muestra los productos que coinciden con la búsqueda.
+
+eliminar_producto(): Permite al usuario eliminar un producto del catálogo. El usuario debe ingresar el título del producto a eliminar.
+
+mostrar_catalogo(): Muestra el catálogo de productos al usuario. El usuario puede seleccionar diferentes opciones para mostrar solo películas, series, documentales, eventos deportivos o todo el catálogo.
+
+cargar_catalogo(): Carga el catálogo de productos desde un archivo. El usuario debe ingresar el nombre del archivo.
 
 Implementación y diseño del programa
 
@@ -71,8 +125,9 @@ Cargar catálogo
 
 Primero se solicita que se ingrese el nombre del archivo de catálogo utilizando la función 'input()'. Continuando se implementa un bloque 'try-except' para manejar los posibles errores al abrir y leer un archivo. Dentro del bloque 'try', abre el archivo usando la función 'open()' en modo lectura "r" y lo asocia a suna variable llamada 'archivo'. Se leen todas las líneas del archivo utilizando el metodo 'readlines()', que devuelve una lista de cadenas, donde cada cadena representa una línea del archivo.
 
-![]()
+![](https://github.com/agn-pe-23i/proyecto-los-mas-pythones/blob/main/Imagen7.png)
 imagen 7
 
+En la imagen 7 podemos ver la implementación de un bucle 'for linea in lineas:', que recorre cada una de las lineas del archivo. Para cada linea se realiza lo siguiente: Se eliminan los espacios en blanco iniciales y finales de la línea utilizando 'strip()'. Y se divide la línea en diferentes parates utilizando 'split(",")', lo que crea una lista donde cada elemento es una parte separa por comas. Con una estructura de control selectiva multiple se verifica que el primer elemento de la lista 'datos' para determianr el tipo de elemento en el catálogo. Dependiendo del valor, los datos de se agrega a la lista de catalogo con la funcion '.append()'.
 
 Guardar catálogo
