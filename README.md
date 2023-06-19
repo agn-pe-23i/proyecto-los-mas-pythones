@@ -21,8 +21,9 @@ Menú principal
 Posteriormente a la implementación de las clases encontramos el módulo del menú principal ‘menu_principal()’, el cual es el punto de entrada del programa y muestra el menú de opciones al usuario. 
 
 ![](https://github.com/agn-pe-23i/proyecto-los-mas-pythones/blob/main/Imagen2.png)
-
-![]()
+imagen 2
+![](https://github.com/agn-pe-23i/proyecto-los-mas-pythones/blob/main/Imagen3.png)
+imagen 3
 
 Tanto en las imagenes 2 y 3 observamos la implementación de un bucle en el que la única forma de detener la ejecución del programa es con la opción 6 de ‘Salir’. Las opciones se implementaron dentro de una estructura de control de selección múltiple de forma que el usuario pueda escoger solo una de las opciones. Si se escoge una opción que no esté dentro de la función entonces se desplegara un mensaje avisando de que no es una opción viable y que debe escoger una opción válida.
 
