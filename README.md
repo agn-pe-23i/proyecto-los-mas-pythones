@@ -72,6 +72,7 @@ Cargar catálogo
 Primero se solicita que se ingrese el nombre del archivo de catálogo utilizando la función 'input()'. Continuando se implementa un bloque 'try-except' para manejar los posibles errores al abrir y leer un archivo. Dentro del bloque 'try', abre el archivo usando la función 'open()' en modo lectura "r" y lo asocia a suna variable llamada 'archivo'. Se leen todas las líneas del archivo utilizando el metodo 'readlines()', que devuelve una lista de cadenas, donde cada cadena representa una línea del archivo.
 
 ![]()
+imagen 7
 
 
 Guardar catálogo
