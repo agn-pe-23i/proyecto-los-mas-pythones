@@ -8,6 +8,10 @@ Diagrama de estructura
 
 ![](https://github.com/agn-pe-23i/proyecto-los-mas-pythones/blob/main/Diagrama%20Estructural.png)
 
+Documentación del uso de modulos y del programa principal
+
+
+
 Implementación y diseño del programa
 
 
@@ -58,12 +62,16 @@ Mostrar Catálogo
 La función 'mostrar_catalogo()' muestra al usuario diferentes opciones para mostrar el catálogo. Dependiendo de la opción seleccionada (1, 2, 3, 4, 5 o 6), se muestra una lista de productos filtrada por tipo o se muestra todo el catálogo completo.
 Se utiliza una estrucutra de control selectivo múltiple para que el usuario pueda escoger una opción de producto que desee que el programa le muestre del catálogo o bien también hay una opción para para que se muestre todo el catálogo.
 
-![]()
+![](https://github.com/agn-pe-23i/proyecto-los-mas-pythones/commit/676f48a74c413985e0f3585c311f351075e899aa)
 imagen 6
 
-Podemos observar de la imagen 6 que anidado a la estructura antes mencionada hay un 'for' que se utiliza para que todos los productos que sean del mismo tipo se muestren, en el ejemplo podemos ver el producto de clase 'Pelicula', el modulo desplegara la información de cada producto. 
+Podemos observar de la imagen 6 que anidado a la estructura antes mencionada hay un 'for' que se utiliza para que todos los productos que sean del mismo tipo se muestren, en el ejemplo podemos ver el producto de clase 'Pelicula', el modulo desplegará la información de cada producto. 
 
 Cargar catálogo
+
+Primero se solicita que se ingrese el nombre del archivo de catálogo utilizando la función 'input()'. Continuando se implementa un bloque 'try-except' para manejar los posibles errores al abrir y leer un archivo. Dentro del bloque 'try', abre el archivo usando la función 'open()' en modo lectura "r" y lo asocia a suna variable llamada 'archivo'. Se leen todas las líneas del archivo utilizando el metodo 'readlines()', que devuelve una lista de cadenas, donde cada cadena representa una línea del archivo.
+
+![]()
 
 
 Guardar catálogo
