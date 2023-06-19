@@ -62,7 +62,7 @@ Mostrar Catálogo
 La función 'mostrar_catalogo()' muestra al usuario diferentes opciones para mostrar el catálogo. Dependiendo de la opción seleccionada (1, 2, 3, 4, 5 o 6), se muestra una lista de productos filtrada por tipo o se muestra todo el catálogo completo.
 Se utiliza una estrucutra de control selectivo múltiple para que el usuario pueda escoger una opción de producto que desee que el programa le muestre del catálogo o bien también hay una opción para para que se muestre todo el catálogo.
 
-![]([https://github.com/agn-pe-23i/proyecto-los-mas-pythones/commit/676f48a74c413985e0f3585c311f351075e899aa](https://github.com/agn-pe-23i/proyecto-los-mas-pythones/blob/main/Imagen6.png))
+![](https://github.com/agn-pe-23i/proyecto-los-mas-pythones/blob/main/Imagen6.png)
 imagen 6
 
 Podemos observar de la imagen 6 que anidado a la estructura antes mencionada hay un 'for' que se utiliza para que todos los productos que sean del mismo tipo se muestren, en el ejemplo podemos ver el producto de clase 'Pelicula', el modulo desplegará la información de cada producto. 
