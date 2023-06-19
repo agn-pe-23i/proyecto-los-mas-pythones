@@ -1,0 +1,7 @@
+Pelicula,El Padrino,Marlon Brando,Francis Ford Coppola,1972,9.99,2.99
+Serie,Game of Thrones,David Benioff,Kit Harington8,19.99,3.99,
+Documental,Planet Earth,David Attenborough,2006,Naturaleza,1.99,7.99
+Evento deportivo en vivo,Final de la Champions League,Fútbol,2022-05-28,21:00,Estadio de Wembley,59.99
+Pelicula,Avatar,Sam Worthingston,James Cameron,2009,5.59,1.99
+Evento deportivo en vivo, Juego Tenis de mesa,Tenis de mesa, 2022-06-05,20:30,Patio Unidad UAM Cuajimalpa, 2.99
+Serie,The Last of Us,Pedro Pascal,Greg Spence, 1, 22.89, 5.99
