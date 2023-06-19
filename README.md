@@ -31,7 +31,7 @@ Agregar productos
 
 El funcionamiento del modulo ‘agregar_producto()’ es permitir al usuario agregar un nuevo producto al catálogo. Se tendrán 5 opciones, 4 para determinar que tipo de producto se desea agregar y una quinta por si se prefiere regresar al menú principal. Dependiendo de la opción seleccionada se solicitara la información especifica del tipo de producto correspondiente. 
 
-![]()
+![](https://github.com/agn-pe-23i/proyecto-los-mas-pythones/blob/main/Imagen4.png)
 imagen 4
 
 Ejemplificando lo anterior, en la ilustración 4 se muestra que si el usuario escogió la opción 2 dentro de la función de ‘agregar_producto()’ entonces se agregara un producto de tipo serie por lo que se preguntara por sus atributos para posteriormente guardarlos dentro del catálogo. 
@@ -40,12 +40,10 @@ Buscar producto
 
 Este módulo permite al usuario hacer búsquedas de un producto a partir de la solicitud de palabras claves del programa hacia el usuario. 
 
-![]()
+![](https://github.com/agn-pe-23i/proyecto-los-mas-pythones/blob/main/Imagen5.png)
 imagen 5
 
 Al inicio de la función implementamos una estructura ‘for’ que compare las palabras claves solicitadas con los productos contenidos en el catalogo y si estos coinciden con el título de algún producto el producto se guardara dentro de una lista. 
-
-Si la busqueda dio un resultado, utilizando la estructura de controlo selectivo desplegamos la información del producto y si no hay ninguna coincidencia la función simplemente desplegara un mensaje negando la busqueda. 
 
 Eliminar producto
 
