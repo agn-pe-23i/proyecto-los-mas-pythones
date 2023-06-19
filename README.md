@@ -2,7 +2,7 @@
 # Proyecto
 Diagrama de estructura
 
-![]()
+![](https://github.com/agn-pe-23i/proyecto-los-mas-pythones/blob/main/Diagrama%20Estructural.png)
 
 Implementación y diseño del programa
 
