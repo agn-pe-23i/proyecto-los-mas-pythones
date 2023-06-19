@@ -43,9 +43,12 @@ Este módulo permite al usuario hacer búsquedas de un producto a partir de la s
 ![](https://github.com/agn-pe-23i/proyecto-los-mas-pythones/blob/main/Imagen5.png)
 imagen 5
 
-Al inicio de la función implementamos una estructura ‘for’ que compare las palabras claves solicitadas con los productos contenidos en el catalogo y si estos coinciden con el título de algún producto el producto se guardara dentro de una lista. 
+Al inicio de la función implementamos una estructura ‘for’ que compare las palabras claves solicitadas con los productos contenidos en el catalogo y si estos coinciden con el título de algún producto el producto se guardara dentro de una lista. Si finalmente resulta que hay una coincidencia utilizando una estructura de control seletivo anidamos una estrucutrura 'for' para que el producto se despliegue junto con toda su información correspondiente. 
 
 Eliminar producto
 
+La función 'eliminar_producto()' permite al usuario eliminar un producto del catálogo. Se solicita el título del producto a eliminar y se busca en el catálogo. Si se encuentra, se elimina del catálogo. Para esto se implemento una estructura de control selectivo anidada en una estrucutrua 'for' para que si el producto se encuentre dentro del catalogo entonces este sea eliminado. 
 
+Mostrar Catálogo
 
+La función 'mostrar_catalogo()' muestra al usuario diferentes opciones para mostrar el catálogo. Dependiendo de la opción seleccionada (1, 2, 3, 4, 5 o 6), se muestra una lista de productos filtrada por tipo o se muestra todo el catálogo completo.
