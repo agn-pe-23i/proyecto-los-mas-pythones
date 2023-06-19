@@ -10,7 +10,7 @@ El programa inicia definiendo 4 clases de productos: ‘Película’, ‘Serie�
 Menú principal
 
 Posteriormente a la implementación de las clases encontramos el módulo del menú principal ‘menu_principal()’, el cual es el punto de entrada del programa y muestra el menú de opciones al usuario. 
-![]()
+![](https://github.com/agn-pe-23i/proyecto-los-mas-pythones/blob/main/Imagen1.png)
 Agregar productos
 
 El funcionamiento del modulo ‘agregar_producto()’ es permitir al usuario agregar un nuevo producto al catálogo. Se tendrán 5 opciones, 4 para determinar que tipo de producto se desea agregar y una quinta por si se prefiere regresar al menú principal. Dependiendo de la opción seleccionada se solicitara la información especifica del tipo de producto correspondiente. 
