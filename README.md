@@ -56,7 +56,14 @@ La función 'eliminar_producto()' permite al usuario eliminar un producto del ca
 Mostrar Catálogo
 
 La función 'mostrar_catalogo()' muestra al usuario diferentes opciones para mostrar el catálogo. Dependiendo de la opción seleccionada (1, 2, 3, 4, 5 o 6), se muestra una lista de productos filtrada por tipo o se muestra todo el catálogo completo.
+Se utiliza una estrucutra de control selectivo múltiple para que el usuario pueda escoger una opción de producto que desee que el programa le muestre del catálogo o bien también hay una opción para para que se muestre todo el catálogo.
+
+![]()
+imagen 6
+
+Podemos observar de la imagen 6 que anidado a la estructura antes mencionada hay un 'for' que se utiliza para que todos los productos que sean del mismo tipo se muestren, en el ejemplo podemos ver el producto de clase 'Pelicula', el modulo desplegara la información de cada producto. 
 
 Cargar catálogo
+
 
 Guardar catálogo
