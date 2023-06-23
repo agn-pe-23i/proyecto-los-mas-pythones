@@ -1,0 +1,47 @@
+[
+    {
+      "Tipo": "Película",
+      "Título": "La Aventura Espacial",
+      "Actor principal": "John Smith",
+      "Director": "Jane Johnson",
+      "Año": "2022",
+      "Precio de renta": 5.99,
+      "Precio de venta": 19.99
+    },
+    {
+      "Tipo": "Serie",
+      "Título": "La Isla Misteriosa",
+      "Actor principal": "Emily Davis",
+      "Director": "Michael Anderson",
+      "Temporadas": 3,
+      "Precio de renta": 8.99,
+      "Precio de venta": 29.99
+    },
+    {
+      "Tipo": "Documental",
+      "Título": "El Planeta Azul",
+      "Director": "David Johnson",
+      "Tema": "Medio Ambiente",
+      "Año": "2021",
+      "Precio de renta": 4.99,
+      "Precio de venta": 14.99
+    },
+    {
+      "Tipo": "Evento deportivo en vivo",
+      "Título": "Final de Fútbol",
+      "Deporte": "Fútbol",
+      "Fecha": "2023-07-01",
+      "Hora": "20:00",
+      "Lugar": "Estadio Central",
+      "Precio de venta": 39.99
+    },
+    {
+      "Tipo": "Evento deportivo en vivo",
+      "Título": "Final de Waterpolo",
+      "Deporte": "Polo acuático",
+      "Fecha": "2023-07-15",
+      "Hora": "16:30",
+      "Lugar": "Alberca Olímpica de la CDMX",
+      "Precio de venta": 14.69
+    }
+  ]
