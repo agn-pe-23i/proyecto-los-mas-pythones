@@ -6,7 +6,11 @@ Torres Aguilar Alan.
 
 Diagrama de estructura
 
-![]()
+![](https://github.com/agn-pe-23i/proyecto-los-mas-pythones/blob/main/Diagrama%20Estructural.png)
+
+- El diagrama de estrucutura esta hecho para visualizar como se realizaron los modulos para satisfacer el cumplimeinto del programa.
+- Se creo la función principal 'main' en la cual controla los demás modulos. Los modulos principales para cargar y guardar un archivo reciben un 'catalogo' el cual es una lista de diccionarios donde se encuentran los productos de nuestro catalogo.
+- Las funciones que manipulan el catalogo son 'agregar_producto', 'buscar_producto', 'eliminar_producto' y 'mostrar_catalogo'.
 
 Documentación del uso de modulos y del programa principal
 
