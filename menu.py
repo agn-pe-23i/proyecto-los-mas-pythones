@@ -1,14 +1,17 @@
 import time
 import os
 
+# Funcion para realizar una pausa de 1 segundo. 
 def espera():
-    time.sleep(1)
-    os.system('cls' if os.name == 'nt' else 'clear')
+    time.sleep(1)  # suspende la ejecución del programa durante el número de segundos especificados
+    os.system('cls' if os.name == 'nt' else 'clear')  # comando para limpiar la pantalla.
 
-def continuar():
-    input('\nPresione Enter para continuar. . .')
-    os.system('cls' if os.name == 'nt' else 'clear')
+# Función que espera la pulsación de la tecla enter para continuar la ejecución del programa.
+def continuar():a
+    input('\nPresione Enter para continuar. . .')  # Se espera que el usuario presione la tecla enter para continuar la ejecución del programa.
+    os.system('cls' if os.name == 'nt' else 'clear')  # comando para limpiar la pantalla.
 
+# Función para acceder a una al diccionario de datos. 
 def datosProducto(opcion):
     datos = {
         'Película': ['Título', 'Actor principal', 'Director', 'Año', 'Precio de renta', 'Precio de venta'],
@@ -34,6 +37,7 @@ def agregar_producto(catalogo):
         print("4. Evento deportivo en vivo")
         print("5. Regresar\n")
 
+        # El diccionario opciones nos ayuda a verificar si la opción que se ingresa sea válida 
         opciones = {'1': 'Película', '2': 'Serie', '3': 'Documental', '4': 'Evento deportivo en vivo'}
         opcion = input("Seleccione una opción: ")
 
