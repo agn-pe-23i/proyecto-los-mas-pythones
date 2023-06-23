@@ -186,4 +186,9 @@ def eliminar_producto(catalogo):
 
     if producto_encontrado:
         catalogo.remove(producto_encontrado)
-        print("\nProducto eliminado
+        print("\nProducto eliminado correctamente.")
+    else:
+        print("\nNo se encontró un producto con el título especificado.")
+
+    continuar()
+    return
