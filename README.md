@@ -157,6 +157,7 @@ Implementación
 El script archivos.py importa el módulo json para trabajar con archivos JSON y el módulo personalizado menu para mostrar mensajes al usuario.
 La función cargar_catalogo() solicita el nombre del archivo al usuario y lo abre en modo lectura. Si el archivo existe y está en formato JSON válido, carga el catálogo y muestra un mensaje de éxito. Si hay un error en el proceso, muestra un mensaje correspondiente y devuelve None.
 La función guardar_catalogo(catalogo) solicita el nombre del archivo al usuario y lo abre en modo escritura. Si el catálogo no es None, se guarda en formato JSON en el archivo especificado y se muestra un mensaje de éxito. Si hay un error en el proceso, muestra un mensaje correspondiente.
+
 Resultados y análisis
 
 Utilizando las funciones cargar_catalogo() y guardar_catalogo(catalogo), se puede interactuar con archivos JSON para cargar y guardar el catálogo de productos.
