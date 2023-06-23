@@ -1,18 +1,31 @@
 import time
 import os
 
-# Funcion para realizar una pausa de 1 segundo. 
 def espera():
-    time.sleep(1)  # suspende la ejecución del programa durante el número de segundos especificados
-    os.system('cls' if os.name == 'nt' else 'clear')  # comando para limpiar la pantalla.
+    """
+    Realiza una pausa de 1 segundo y luego limpia la pantalla.
+    Utiliza la función time.sleep() para generar la pausa y la función os.system()
+    para limpiar la pantalla, utilizando comandos específicos dependiendo del sistema operativo.
+    """
+    time.sleep(1)
+    os.system('cls' if os.name == 'nt' else 'clear')
 
-# Función que espera la pulsación de la tecla enter para continuar la ejecución del programa.
-def continuar():a
-    input('\nPresione Enter para continuar. . .')  # Se espera que el usuario presione la tecla enter para continuar la ejecución del programa.
-    os.system('cls' if os.name == 'nt' else 'clear')  # comando para limpiar la pantalla.
+def continuar():
+    """
+    Pausa el programa y muestra un mensaje indicando al usuario que presione Enter para continuar.
+    Luego, limpia la pantalla.
+    Utiliza la función input() para esperar a que el usuario presione Enter y la función os.system()
+    para limpiar la pantalla, utilizando comandos específicos dependiendo del sistema operativo.
+    """
+    input('\nPresione Enter para continuar. . .')
+    os.system('cls' if os.name == 'nt' else 'clear')
 
-# Función para acceder a una al diccionario de datos. 
 def datosProducto(opcion):
+    """
+    Devuelve los datos requeridos para un tipo de producto específico.
+    Recibe como parámetro la opción seleccionada por el usuario y devuelve una lista con los datos requeridos
+    para el tipo de producto seleccionado.
+    """
     datos = {
         'Película': ['Título', 'Actor principal', 'Director', 'Año', 'Precio de renta', 'Precio de venta'],
         'Serie': ['Título', 'Actor principal', 'Director', 'Temporadas', 'Precio de renta', 'Precio de venta'],
@@ -22,10 +35,9 @@ def datosProducto(opcion):
 
     return datos[opcion]
 
-# Función para agregar un producto al catálogo
 def agregar_producto(catalogo):
     """
-    Esta función permite agregar un producto al catálogo.
+    Permite agregar un producto al catálogo.
     Solicita al usuario la información correspondiente y crea una instancia
     del tipo de producto seleccionado para luego agregarlo al catálogo.
     """
@@ -37,7 +49,6 @@ def agregar_producto(catalogo):
         print("4. Evento deportivo en vivo")
         print("5. Regresar\n")
 
-        # El diccionario opciones nos ayuda a verificar si la opción que se ingresa sea válida 
         opciones = {'1': 'Película', '2': 'Serie', '3': 'Documental', '4': 'Evento deportivo en vivo'}
         opcion = input("Seleccione una opción: ")
 
@@ -71,6 +82,10 @@ def agregar_producto(catalogo):
             continuar()
 
 def buscar_producto(catalogo):
+    """
+    Permite buscar productos en el catálogo utilizando palabras clave del título.
+    Solicita al usuario ingresar las palabras clave y muestra los productos encontrados.
+    """
     if catalogo is None:
         print('No existe un catálogo.')
         continuar()
@@ -94,6 +109,10 @@ def buscar_producto(catalogo):
     return
 
 def mostrar_catalogo(catalogo):
+    """
+    Muestra el catálogo completo o por categoría.
+    Solicita al usuario seleccionar la opción de visualización y muestra los productos correspondientes.
+    """
     if catalogo is None:
         print('No existe un catálogo para mostrar.')
         continuar()
@@ -148,6 +167,10 @@ def mostrar_catalogo(catalogo):
             continuar()
 
 def eliminar_producto(catalogo):
+    """
+    Permite eliminar un producto del catálogo.
+    Solicita al usuario el título del producto a eliminar y lo elimina del catálogo si existe.
+    """
     if catalogo is None:
         print('No existe un catálogo.')
         continuar()
@@ -163,9 +186,4 @@ def eliminar_producto(catalogo):
 
     if producto_encontrado:
         catalogo.remove(producto_encontrado)
-        print("\nProducto eliminado correctamente.")
-    else:
-        print("\nNo se encontró un producto con el título especificado.")
-    
-    continuar()
-    return
+        print("\nProducto eliminado
